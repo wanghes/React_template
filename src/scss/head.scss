@@ -1,0 +1,22 @@
+.header{
+    height: 42px;
+    line-height: 42px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    a{
+        width: 100%;
+        display: block;
+        text-align: center;
+        border-right: 1px solid #ccc;
+        background: #ccc;
+        color: #666;
+        &:last-child{
+            border-right: none;
+        }
+        &.active{
+            background: #000;
+            color: #fff;
+        }
+    }
+}
